@@ -1,8 +1,16 @@
-// https://BenArthurOCE.github.io/TaxRatesJSON/atoJSON.json.
-
-// https://benarthuroce.github.io/TaxRatesJSON/atoJSON.json
+// https://BenArthurOCE.github.io/TaxRatesJSON/atoJSON.json
 
 
-//https://github.com/BenArthurOce/TaxRatesJSON
-
-//https://github.com/BenArthurOce/TaxRatesJSON/blob/main/atoJSON.json
+fetch('https://BenArthurOCE.github.io/TaxRatesJSON/atoJSON.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+    });
