@@ -397,10 +397,10 @@
     "Low Income Tax Offset": {
         "2024": {
             "brackets": [
-                { "range": [10000000, 37500], "base": 700, "pctAdj": 0 },
-                { "range": [10000000, 45000], "base": 700, "pctAdj": -0.05 },
-                { "range": [10000000, 66666], "base": 325, "pctAdj": -0.015 },
-                { "range": [10000000, 10000000000], "base": 0, "pctAdj": 0 }
+                { "range": [0, 37500], "base": 700, "pctAdj": 0 },
+                { "range": [37501, 45000], "base": 700, "pctAdj": -0.05 },
+                { "range": [45001, 66666], "base": 325, "pctAdj": -0.015 },
+                { "range": [66667, 10000000000], "base": 0, "pctAdj": 0 }
             ]
         },
         "2023": {
@@ -552,7 +552,7 @@
     },
     "Medicare Levy Reduction": {
         "2024": {
-            "non-pensioners ": {
+            "non-pensioners": {
                 "single": {
                     "brackets": [
                         {"range": [0, 0], "rate": 0.00, "special": false},
@@ -569,7 +569,7 @@
                     "additional-child": 0
                 }
             },
-            "non-sapto": {
+            "pensioners": {
                 "single": {
                     "brackets": [
                         {"range": [0, 0], "rate": 0.00, "special": false},
@@ -743,34 +743,36 @@
             "non-pensioners": {
                 "single": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 22398], "rate": 0.00, "special": false},
+                        {"range": [22399, 27997], "rate": 0.00, "special": true},
+                        {"range": [27998, 1000000000], "rate": 0.02, "special": false}
                     ]
                 },
                 "family": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 37794], "rate": 0.00, "special": false},
+                        {"range": [37795, 47242], "rate": 0.00, "special": true},
+                        {"range": [47243, 1000000000], "rate": 0.02, "special": false}
                     ],
+                    "first-child": 0,
                     "additional-child": 0
                 }
             },
             "pensioners": {
                 "single": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 35418], "rate": 0.00, "special": false},
+                        {"range": [35419, 44272], "rate": 0.00, "special": true},
+                        {"range": [44273, 1000000000], "rate": 0.02, "special": false}
                     ]
                 },
                 "family": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 49304], "rate": 0.00, "special": false},
+                        {"range": [49305, 61630], "rate": 0.00, "special": true},
+                        {"range": [61631, 1000000000], "rate": 0.02, "special": false}
                     ],
+                    "first-child": 0,
                     "additional-child": 0
                 }
             }
@@ -779,40 +781,42 @@
             "non-pensioners": {
                 "single": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 21980], "rate": 0.00, "special": false},
+                        {"range": [21981, 27475], "rate": 0.00, "special": true},
+                        {"range": [27476, 1000000000], "rate": 0.02, "special": false}
                     ]
                 },
                 "family": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 37089], "rate": 0.00, "special": false},
+                        {"range": [37090, 46361], "rate": 0.00, "special": true},
+                        {"range": [46362, 1000000000], "rate": 0.02, "special": false}
                     ],
+                    "first-child": 0,
                     "additional-child": 0
                 }
             },
             "pensioners": {
                 "single": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 34758], "rate": 0.00, "special": false},
+                        {"range": [34759, 43447], "rate": 0.00, "special": true},
+                        {"range": [43448, 1000000000], "rate": 0.02, "special": false}
                     ]
                 },
                 "family": {
                     "brackets": [
-                        {"range": [0, 0], "rate": 0.00, "special": false},
-                        {"range": [0, 0], "rate": 0.00, "special": true},
-                        {"range": [0, 1000000000], "rate": 0.02, "special": false}
+                        {"range": [0, 48384], "rate": 0.00, "special": false},
+                        {"range": [48385, 60480], "rate": 0.00, "special": true},
+                        {"range": [60481, 1000000000], "rate": 0.02, "special": false}
                     ],
+                    "first-child": 0,
                     "additional-child": 0
                 }
             }
         },
         "2017": {
-            "non-pensioners ": {
+            "non-pensioners": {
                 "single": {
                     "brackets": [
                         {"range": [0, 0], "rate": 0.00, "special": false},
