@@ -254,7 +254,7 @@
             ]
         }
     },
-    "HECS Repayment Rates": {
+    "Higher Education Loan Program (HELP) Repayments": {
         "information":"Repayment amounts on HECS loans once income reaches a certain amount",
         "url":"https://www.ato.gov.au/tax-rates-and-codes/study-and-training-support-loans-rates-and-repayment-thresholds",
         "quickCode":"QC16176",
@@ -515,6 +515,94 @@
                 { "range": [80137, 10000000000], "rate": 0.08 }
             ]
         }
+    },
+    "Student Financial Supplement Scheme (SFSS) Repayments": {
+        "information":"Merged with HELP from FY2020 and beyond",
+        "url":"https://www.ato.gov.au/individuals-and-families/study-and-training-support-loans/types-of-loans#ato-SFSS",
+        "quickCode":"QC44853",
+        
+        "2019": {
+            "brackets": [
+                {"range": [0, 51956], "rate": 0.00},
+                {"range": [51957, 64306], "rate": 0.02},
+                {"range": [64307, 91425], "rate": 0.03},
+                {"range": [91426, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2018": {
+            "brackets": [
+                {"range": [0, 55873], "rate": 0.00},
+                {"range": [55874, 68602], "rate": 0.02},
+                {"range": [68603, 97377], "rate": 0.03},
+                {"range": [97378, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2017": {
+            "brackets": [
+                {"range": [0, 54868], "rate": 0.00},
+                {"range": [54869, 67368], "rate": 0.02},
+                {"range": [67369, 95626], "rate": 0.03},
+                {"range": [95627, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2016": {
+            "brackets": [
+                {"range": [0, 54125], "rate": 0.00},
+                {"range": [54126, 66456], "rate": 0.02},
+                {"range": [66457, 94331], "rate": 0.03},
+                {"range": [94332, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2015": {
+            "brackets": [
+                {"range": [0, 53344], "rate": 0.00},
+                {"range": [53345, 65497], "rate": 0.02},
+                {"range": [65498, 92970], "rate": 0.03},
+                {"range": [92971, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2014": {
+            "brackets": [
+                {"range": [0, 51308], "rate": 0.00},
+                {"range": [51309, 62997], "rate": 0.02},
+                {"range": [62998, 89421], "rate": 0.03},
+                {"range": [89422, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2013": {
+            "brackets": [
+                {"range": [0, 49095], "rate": 0.00},
+                {"range": [49096, 60279], "rate": 0.02},
+                {"range": [60280, 85564], "rate": 0.03},
+                {"range": [85565, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2012": {
+            "brackets": [
+                {"range": [0, 47195], "rate": 0.00},
+                {"range": [47196, 57947], "rate": 0.02},
+                {"range": [57948, 82253], "rate": 0.03},
+                {"range": [82254, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2011": {
+            "brackets": [
+                {"range": [0, 44911], "rate": 0.00},
+                {"range": [44912, 55143], "rate": 0.02},
+                {"range": [55144, 78273], "rate": 0.03},
+                {"range": [78274, 10000000000], "rate": 0.04}
+            ]
+        },
+        "2010/2011": {
+            "brackets": [
+                {"range": [0, 43150], "rate": 0.00},
+                {"range": [43152, 52980], "rate": 0.02},
+                {"range": [52981, 75203], "rate": 0.03},
+                {"range": [75204, 10000000000], "rate": 0.04}
+            ]
+        }
+
+
     },
     "Low Income Tax Offset": {
         "information":"Offset against income tax for low income earners up to $66,667",
