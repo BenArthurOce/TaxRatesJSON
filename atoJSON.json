@@ -1,5 +1,9 @@
 {
-    "Individual Income Tax": {
+    "Individual Income Tax (Resident)": {
+        "information":"Income Tax Rates for residents",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents",
+        "quickCode":"QC73320",
+
         "2024": {
             "brackets": [
                 { "range": [0, 18200], "rate": 0.00, "base": 0 },
@@ -136,7 +140,125 @@
             ]
         }
     },
+    "Individual Income Tax (Non Resident)": {
+        "information":"Income Tax Rates for non residents",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/tax-rates-foreign-residents",
+        "quickCode":"QC73321",
+
+        "2024": {
+            "brackets": [
+                { "range": [0, 120000], "rate": 0.325, "base": 0 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 39000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61200 }
+            ]
+        },
+        "2023": {
+            "brackets": [
+                { "range": [0, 120000], "rate": 0.325, "base": 0 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 39000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61200 }
+            ]
+        },
+        "2022": {
+            "brackets": [
+                { "range": [0, 120000], "rate": 0.325, "base": 0 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 39000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61200 }
+            ]
+        },
+        "2021": {
+            "brackets": [
+                { "range": [0, 120000], "rate": 0.325, "base": 0 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 39000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61200 }
+            ]
+        },
+        "2020": {
+            "brackets": [
+                { "range": [0, 120000], "rate": 0.325, "base": 0 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 39000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61200 }
+            ]
+        },
+        "2019": {
+            "brackets": [
+                { "range": [0, 90000], "rate": 0.325, "base": 0 },
+                { "range": [90001, 180000], "rate": 0.37, "base": 29250 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 62550 }
+            ]
+        },
+        "2018": {
+            "brackets": [
+                { "range": [0, 90000], "rate": 0.325, "base": 0 },
+                { "range": [90001, 180000], "rate": 0.37, "base": 29250 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 62550 }
+            ]
+        },
+        "2017": {
+            "brackets": [
+                { "range": [0, 87000], "rate": 0.325, "base": 0 },
+                { "range": [87001, 180000], "rate": 0.37, "base": 28275 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 62685 }
+            ]
+        },
+        "2016": {
+            "brackets": [
+                { "range": [0, 80000], "rate": 0.325, "base": 0 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 26000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 63000 }
+            ]
+        },
+        "2015": {
+            "brackets": [
+                { "range": [0, 80000], "rate": 0.325, "base": 0 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 26000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 63000 }
+            ]
+        },
+        "2014": {
+            "brackets": [
+                { "range": [0, 80000], "rate": 0.325, "base": 0 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 26000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 63000 }
+            ]
+        },
+        "2013": {
+            "brackets": [
+                { "range": [0, 80000], "rate": 0.325, "base": 0 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 26000 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 63000 }
+            ]
+        },
+        "2012": {
+            "brackets": [
+                { "range": [0, 37000], "rate": 0.29, "base": 0 },
+                { "range": [37001, 80000], "rate": 0.30, "base": 10730 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 23630 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 60630 }
+            ]
+        },
+        "2011": {
+            "brackets": [
+                { "range": [0, 37000], "rate": 0.29, "base": 0 },
+                { "range": [37001, 80000], "rate": 0.30, "base": 10730 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 23630 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 60630 }
+            ]
+        },
+        "2010": {
+            "brackets": [
+                { "range": [0, 35000], "rate": 0.29, "base": 0 },
+                { "range": [35001, 80000], "rate": 0.30, "base": 10150 },
+                { "range": [80001, 180000], "rate": 0.38, "base": 23630 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 61650 }
+            ]
+        }
+    },
     "HECS Repayment Rates": {
+        "information":"Repayment amounts on HECS loans once income reaches a certain amount",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/study-and-training-support-loans-rates-and-repayment-thresholds",
+        "quickCode":"QC16176",
+
         "2024": {
             "brackets": [
                 { "range": [0, 51550], "rate": 0.00 },
@@ -393,8 +515,12 @@
                 { "range": [80137, 10000000000], "rate": 0.08 }
             ]
         }
-        },
+    },
     "Low Income Tax Offset": {
+        "information":"Offset against income tax for low income earners up to $66,667",
+        "url":"https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/tax-offsets/low-and-middle-income-earner-tax-offsets#Lowincometaxoffset",
+        "quickCode":"QC72196",
+
         "2024": {
             "brackets": [
                 { "range": [0, 37500], "base": 700, "pctAdj": 0 },
@@ -506,6 +632,10 @@
         }
     },
     "Low Middle Income Tax Offset": {
+        "information":"Tax offset for low and middle income earners in the 2019 to 2022 income years.",
+        "url":"https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/tax-offsets/low-and-middle-income-earner-tax-offsets#Lowandmiddleincometaxoffset",
+        "quickCode":"QC72196",
+
         "2024": { "brackets": [] },
         "2023": { "brackets": [] },
         "2022": {
@@ -550,7 +680,47 @@
         "2011": { "brackets": [] },
         "2010": { "brackets": [] }
     },
+    "Temporary budget repair levy": {
+        "information":"Additional 2% tax on high income earners for the 2017, 2016 and 2015FY",
+        "url":"https://www.ato.gov.au/individuals-and-families/your-tax-return/instructions-to-complete-your-tax-return/paper-tax-return-instructions/2017/supporting-information/temporary-budget-repair-levy",
+        "quickCode":"QC42044",
+
+        "2024": { "brackets": [] },
+        "2023": { "brackets": [] },
+        "2022": { "brackets": [] },
+        "2021": { "brackets": [] },
+        "2020": { "brackets": [] },
+        "2019": { "brackets": [] },
+        "2018": { "brackets": [] },
+        "2017": {
+            "brackets": [
+                { "range": [0, 180000], "rate": 0.02 },
+                { "range": [180001, 10000000000], "rate": 0.02 }
+            ]
+        },
+        "2016": {
+            "brackets": [
+                { "range": [0, 180000], "rate": 0.02 },
+                { "range": [180001, 10000000000], "rate": 0.02 }
+            ]
+        },
+        "2015": {
+            "brackets": [
+                { "range": [0, 180000], "rate": 0.02 },
+                { "range": [180001, 10000000000], "rate": 0.02 }
+            ]
+        },
+        "2014": { "brackets": [] },
+        "2013": { "brackets": [] },
+        "2012": { "brackets": [] },
+        "2011": { "brackets": [] },
+        "2010": { "brackets": [] }
+    },
     "Medicare Levy Reduction": {
+        "information":"Reduction on the medicare levy depending on amount of famiily income",
+        "url":"https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy/medicare-levy-reduction",
+        "quickCode":"QC71225",
+
         "2024": {
             "non-pensioners": {
                 "single": {
@@ -640,8 +810,8 @@
                         {"range": [39403, 49252], "rate": 0.00, "special": true},
                         {"range": [49253, 1000000000], "rate": 0.02, "special": false}
                     ],
-                    "first-child": 0,
-                    "additional-child": 0
+                    "first-child": 3619,
+                    "additional-child": 3619
                 }
             },
             "pensioners": {
@@ -658,8 +828,8 @@
                         {"range": [51095, 63867], "rate": 0.00, "special": true},
                         {"range": [63868, 1000000000], "rate": 0.02, "special": false}
                     ],
-                    "first-child": 0,
-                    "additional-child": 0
+                    "first-child": 3619,
+                    "additional-child": 3619
                 }
             }
         },
@@ -1105,6 +1275,10 @@
         }
     },
     "Medicare Levy Surchage": {
+        "information":"Additional Medicare Levy payable on high income earners with no private health insurance",
+        "url":"https://www.ato.gov.au/individuals-and-families/medicare-and-private-health-insurance/medicare-levy-surcharge",
+        "quickCode":"QC27040",
+
         "2024": {
             "single": {
                 "brackets": [
@@ -1358,6 +1532,476 @@
                 "brackets": [
                 ]
             }
+        }
+    },
+    "Seniors and Pensioners Tax Offset": {
+        "information":"The tax offset reduces by $0.125 for every dollar your rebate income exceeds the relevant shading-out threshold amount. We round up the amount to the nearest whole dollar.",
+        "url":"https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/tax-offsets/seniors-and-pensioners-tax-offset",
+        "quickCode":"QC72197",
+
+        "2023": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2022": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2021": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2020": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2019": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2018": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2017": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2016": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2015": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2014": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2013": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        },
+        "2012": {
+            "single":   { "range": [32279, 50119], "maxOffset": 2230, "combinedLimit": 50119, "pctAdj": -0.125 },
+            "couple":   { "range": [28974, 41790], "maxOffset": 1602, "combinedLimit": 83580, "pctAdj": -0.125 },
+            "illness":  { "range": [31279, 47599], "maxOffset": 2040, "combinedLimit": 95198, "pctAdj": -0.125 }
+        }
+    },
+    "Mature Age Worker Tax Offset": {
+        "information":"It was introduced on 1 July 2004 and was available for 10 years before it was repealed on 1 July 2014. Non-refundable MAWTO credit of up to $500",
+        "url":"https://atotaxrates.info/tax-offset/mature-age-workers-tax-offset/",
+        "quickCode":"N/A",
+
+        "2023": { "brackets": [] },
+        "2022": { "brackets": [] },
+        "2021": { "brackets": [] },
+        "2020": { "brackets": [] },
+        "2019": { "brackets": [] },
+        "2018": { "brackets": [] },
+        "2017": { "brackets": [] },
+        "2016": { "brackets": [] },
+        "2015": { "brackets": [] },
+        "2014": { "brackets": [] },
+        "2013": {
+            "brackets": [
+                { "range": [0, 9999], "base": 0, "pctAdj": 0.05 },
+                { "range": [10001, 53000], "base": 500, "pctAdj": 0 },
+                { "range": [53001, 62999], "base": 500, "pctAdj": -0.05 },
+                { "range": [63000, 10000000000], "base": 0, "pctAdj": 0 }
+            ]
+        },
+        "2012": {
+            "brackets": [
+                { "range": [0, 9999], "base": 0, "pctAdj": 0.05 },
+                { "range": [10001, 53000], "base": 500, "pctAdj": 0 },
+                { "range": [53001, 62999], "base": 500, "pctAdj": -0.05 },
+                { "range": [63000, 10000000000], "base": 0, "pctAdj": 0 }
+            ]
+        },
+        "2011": {
+            "brackets": [
+                { "range": [0, 9999], "base": 0, "pctAdj": 0.05 },
+                { "range": [10001, 53000], "base": 500, "pctAdj": 0 },
+                { "range": [53001, 62999], "base": 500, "pctAdj": -0.05 },
+                { "range": [63000, 10000000000], "base": 0, "pctAdj": 0 }
+            ]
+        },
+        "2010": {
+            "brackets": [
+                { "range": [0, 9999], "base": 0, "pctAdj": 0.05 },
+                { "range": [10001, 53000], "base": 500, "pctAdj": 0 },
+                { "range": [53001, 62999], "base": 500, "pctAdj": -0.05 },
+                { "range": [63000, 10000000000], "base": 0, "pctAdj": 0 }
+            ]
+        }
+    },
+    "Beneficiary Tax Offset": {
+        "information":"15% of certain government based income calculated as an offset",
+        "url":"https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/tax-offsets/beneficiary-tax-offset",
+        "quickCode":"QC72199",
+
+        "2024": {
+            "brackets": [
+                { "range": [0, 45000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [45001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $45,000]" }
+            ]
+        },
+        "2023": {
+            "brackets": [
+                { "range": [0, 45000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [45001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $45,000]" }
+            ]
+        },
+        "2022": {
+            "brackets": [
+                { "range": [0, 45000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [45001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $45,000]" }
+            ]
+        },
+        "2021": {
+            "brackets": [
+                { "range": [0, 45000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [45001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $45,000]" }
+            ]
+        },
+        "2020": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2019": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2018": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2017": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2016": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2015": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2014": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2013": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2012": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2011": {
+            "brackets": [
+                { "range": [0, 37000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [37001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $37,000]" }
+            ]
+        },
+        "2010": {
+            "brackets": [
+                { "range": [0, 35000], "formula": "15% of [Rebatable benefits minus $6,000]" },
+                { "range": [35001, 10000000000], "formula": "15% of [Rebatable benefits minus $6,000] + 15% of [Rebatable benefits minus $35,000]" }
+            ]
+        }
+    },
+    "Small Business Tax Offset": {
+        "information":"Calculated as percentage of the tax on “total net small business income",
+        "url":"https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/income-and-deductions-for-business/in-detail/small-business-income-tax-offset",
+        "quickCode":"QC49023",
+
+        "2024": { "range": [0, 5000000], "maxOffset":1000, "rate":0.16 },
+        "2023": { "range": [0, 5000000], "maxOffset":1000, "rate":0.16 },
+        "2022": { "range": [0, 5000000], "maxOffset":1000, "rate":0.16 },
+        "2021": { "range": [0, 5000000], "maxOffset":1000, "rate":0.13 },
+        "2020": { "range": [0, 5000000], "maxOffset":1000, "rate":0.08 },
+        "2019": { "range": [0, 5000000], "maxOffset":1000, "rate":0.08 },
+        "2018": { "range": [0, 5000000], "maxOffset":1000, "rate":0.08 },
+        "2017": { "range": [0, 5000000], "maxOffset":1000, "rate":0.08 },
+        "2016": { "range": [0, 2000000], "maxOffset":1000, "rate":0.05 },
+        "2015": { "range": [] },
+        "2014": { "range": [] },
+        "2013": { "range": [] },
+        "2012": { "range": [] },
+        "2011": { "range": [] },
+        "2010": { "range": [] }
+    },
+    "Superannuation Non Concessional and CGT Caps": { 
+        "information":"A limit on the total amount of superannuation that can be transferred into the retirement phase",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/contributions-caps",
+        "quickCode":"QC18123",
+
+        "2024": { "nonConcessionalCap":110000, "CGT":1705000, "transferBalanceCap":1900000, "detailedBenefitTransferCap": 118750 },
+        "2023": { "nonConcessionalCap":110000, "CGT":1650000, "transferBalanceCap":1700000, "detailedBenefitTransferCap": 106250 },
+        "2022": { "nonConcessionalCap":110000, "CGT":1615000, "transferBalanceCap":1700000, "detailedBenefitTransferCap": 106250 },
+        "2021": { "nonConcessionalCap":100000, "CGT":1565000, "transferBalanceCap":1600000, "detailedBenefitTransferCap": 100000 },
+        "2020": { "nonConcessionalCap":100000, "CGT":1515000, "transferBalanceCap":1600000, "detailedBenefitTransferCap": 100000 },
+        "2019": { "nonConcessionalCap":100000, "CGT":1480000, "transferBalanceCap":1600000, "detailedBenefitTransferCap": 100000 },
+        "2018": { "nonConcessionalCap":100000, "CGT":1445000, "transferBalanceCap":1600000, "detailedBenefitTransferCap": 100000 },
+        "2017": { "nonConcessionalCap":180000, "CGT":1415000 },
+        "2016": { "nonConcessionalCap":180000, "CGT":1395000 },
+        "2015": { "nonConcessionalCap":180000, "CGT":1355000 },
+        "2014": { "nonConcessionalCap":150000, "CGT":1315000 },
+        "2013": { "nonConcessionalCap":150000, "CGT":1255000 },
+        "2012": { "nonConcessionalCap":150000, "CGT":1205000 },
+        "2011": { "nonConcessionalCap":150000, "CGT":1155000 },
+        "2010": { "nonConcessionalCap":150000, "CGT":1100000 }
+    },
+    "Superannuation Concessional Contributions Caps": { 
+        "information":"",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/contributions-caps",
+        "quickCode":"QC18123",
+
+        "2024": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2023": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2022": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2021": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2020": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2019": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2018": { "ageLimit":0,  "youngerCap":27500, "olderCap":27500},
+        "2017": { "ageLimit":49, "youngerCap":30000, "olderCap":35000},
+        "2016": { "ageLimit":49, "youngerCap":30000, "olderCap":35000},
+        "2015": { "ageLimit":49, "youngerCap":30000, "olderCap":35000},
+        "2014": { "ageLimit":59, "youngerCap":25000, "olderCap":35000},
+        "2013": { "ageLimit":0,  "youngerCap":25000, "olderCap":25000},
+        "2012": { "ageLimit":50, "youngerCap":25000, "olderCap":50000},
+        "2011": { "ageLimit":50, "youngerCap":25000, "olderCap":35000},
+        "2010": { "ageLimit":50, "youngerCap":25000, "olderCap":35000}
+    },
+    "Template Holdler - To Be Adjusted": { 
+        "information":"IN PROGRESS",
+        "url":"IN PROGRESS",
+        "quickCode":"IN PROGRESS",
+
+        "Table2": {
+          "Caption": "Unused concessional cap carry forward",
+          "Data": [
+            {
+                "Description": "General contributions cap",
+                "2018": "$25000",
+                "2019": "$25000",
+                "2020": "$25000",
+                "2021": "$25000",
+                "2022": "$27500"
+            },
+            {
+                "Description": "Total unused available cap accrued",
+                "2018": "Not applicable",
+                "2019": "$0",
+                "2020": "$22000",
+                "2021": "$44000",
+                "2022": "$69000"
+            },
+            {
+                "Description": "Maximum cap available",
+                "2018": "$25000",
+                "2019": "$25000",
+                "2020": "$47000",
+                "2021": "$25000",
+                "2022": "$96500"
+            },
+            {
+                "Description": "Superannuation balance 30 June prior year",
+                "2018": "Not applicable",
+                "2019": "$480000",
+                "2020": "$490000",
+                "2021": "$505000",
+                "2022": "$490000"
+            },
+            {
+                "Description": "Concessional contributions",
+                "2018": "nil",
+                "2019": "$3,000",
+                "2020": "$3,000",
+                "2021": "nil",
+                "2022": "nil"
+            },
+            {
+                "Description": "Unused concessional cap amount accrued in the relevant financial year",
+                "2018": "$0",
+                "2019": "$22,000",
+                "2020": "$22,000",
+                "2021": "$25,000",
+                "2022": "$27,500"
+            }
+            ]
+        }
+    },
+    "Co-contribution income thresholds": { 
+        "information":"The government will pay a super co-contribution up to certain limits.",
+        "url":"https://www.ato.gov.au/tax-rates-and-codes/key-superannuation-rates-and-thresholds/government-contributions",
+        "quickCode":"QC18123",
+
+        "2024": { "range": [43445, 58445], "maxEntitlement": 500 },
+        "2023": { "range": [42016, 57016], "maxEntitlement": 500 },
+        "2022": { "range": [41112, 56112], "maxEntitlement": 500 },
+        "2021": { "range": [39837, 54837], "maxEntitlement": 500 },
+        "2020": { "range": [38564, 53564], "maxEntitlement": 500 },
+        "2019": { "range": [37697, 52697], "maxEntitlement": 500 },
+        "2018": { "range": [36813, 51813], "maxEntitlement": 500 },
+        "2017": { "range": [36021, 51021], "maxEntitlement": 500 },
+        "2016": { "range": [35454, 50454], "maxEntitlement": 500 },
+        "2015": { "range": [34488, 49488], "maxEntitlement": 500 },
+        "2014": { "range": [33516, 48516], "maxEntitlement": 500 },
+        "2013": { "range": [31920, 46920], "maxEntitlement": 500 },
+        "2012": { "range": [31920, 61920], "maxEntitlement": 1000 },
+        "2011": { "range": [31920, 61920], "maxEntitlement": 1000 },
+        "2010": { "range": [31920, 61920], "maxEntitlement": 1000 }
+    },
+    "Low income super tax offset": {
+        "information":"IN PROGRESS",
+        "url":"https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/how-to-save-more-in-your-super/government-super-contributions/low-income-super-tax-offset",
+        "quickCode":"QC26138",
+        
+        "2024": { },
+        "2023": { },
+        "2022": { },
+        "2021": { },
+        "2020": { },
+        "2019": { },
+        "2018": { },
+        "2017": { },
+        "2016": { },
+        "2015": { },
+        "2014": { },
+        "2013": { },
+        "2012": { },
+        "2011": { },
+        "2010": { }
+    },
+    "Trust Rax Rates": {
+        "information":"Tax rates for trusts",
+        "url":"https://atotaxrates.info/businesses/trust-tax-rates/",
+        "quickCode":"QC49909",
+
+        "2023": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 45000], "rate": 0.19, "base": 127.30 },
+                { "range": [45001, 120000], "rate": 0.325, "base": 8550 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 32925 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 55125 }
+            ]
+        },
+        "2022": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 45000], "rate": 0.19, "base": 127.30 },
+                { "range": [45001, 120000], "rate": 0.325, "base": 8550 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 32925 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 55125 }
+            ]
+        },
+        "2021": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 45000], "rate": 0.19, "base": 127.30 },
+                { "range": [45001, 120000], "rate": 0.325, "base": 8550 },
+                { "range": [120001, 180000], "rate": 0.37, "base": 32925 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 55125 }
+            ]
+        },
+        "2020": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 90000], "rate": 0.325, "base": 7030 },
+                { "range": [90001, 180000], "rate": 0.37, "base": 24255 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 57555 }
+            ]
+        },
+        "2019": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 90000], "rate": 0.325, "base": 7030 },
+                { "range": [90001, 180000], "rate": 0.37, "base": 24255 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 57555 }
+            ]
+        },
+        "2018": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 87000], "rate": 0.325, "base": 7030 },
+                { "range": [87001, 180000], "rate": 0.37, "base": 23280 },
+                { "range": [180001, 10000000000], "rate": 0.45, "base": 57690 }
+            ]
+        },
+        "2017": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 87000], "rate": 0.325, "base": 7030 },
+                { "range": [87001, 180000], "rate": 0.37, "base": 23280 },
+                { "range": [180001, 10000000000], "rate": 0.47, "base": 57690 }
+            ]
+        },
+        "2016": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 80000], "rate": 0.325, "base": 7030 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 21005 },
+                { "range": [180001, 10000000000], "rate": 0.47, "base": 58005 }
+            ]
+        },
+        "2015": {
+            "brackets": [
+                { "range": [0, 416], "rate": 0.00, "base": 0 },
+                { "range": [417, 670], "rate": 0.50, "base": 0 },
+                { "range": [671, 37000], "rate": 0.19, "base": 127.30 },
+                { "range": [37001, 80000], "rate": 0.325, "base": 7030 },
+                { "range": [80001, 180000], "rate": 0.37, "base": 21005 },
+                { "range": [180001, 10000000000], "rate": 0.47, "base": 58005 }
+            ]
         }
     }
 }
